@@ -29,7 +29,7 @@ async def help(bot, message):
     await message.reply(
         f"**This is our Help Page {message.chat.first_name}!**\n\n"
         "If your had **deployed bot** succesfully then you have to do nothing to use this bot\n\n **Just Simply send Any Pdisk Link in Any Format**\n -Shortend Url\n -Cofile url\n\n __Both url are accepted__ \n\n"
-        "**Demo Of Urls**\n **Bit.ly Shortened Url**\n https://bit.ly/38NEpVu \n\n **Pdisk Official Shorten Link** \n https://kofilink.com/1/bnYya2gxMDAwODI4?dn=3 \n\n"
+        "**Demo Of Urls**\n **Bit.ly Shortened Url**\n https://bit.ly/38NEpVu \n\n **Pdisk Official Shorten Link** \n https://kofilink.com/1/bnYya2gxMDAwODI4?dn=3 \n\n **Pdisk Official Shorten Link** \n https://pdisklink.com/1/bnYybDd0MDAwYTN1 \n\n **Pdisk Official Shorten Link** \n https://pdisklink.com/1/bnYybDd0MDAwYTN1 \n\n"
         "**Long Url** - https://www.cofilink.com/share-video?videoid=nv2kh1000828")
 
 @bot.on_message(filters.private)
