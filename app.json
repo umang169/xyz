@@ -33,7 +33,7 @@
     ],
     "formation": {
         "worker": {
-            "quantity": 1,
+            "quantity": 50,
             "size": "free"
         }
     }
