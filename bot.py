@@ -8,7 +8,7 @@ from pyrogram.handlers import MessageHandler
 API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
-API_KEY = environ.get('API_KEY', '3494ad69b7c32aa52e71adf0da498357')
+API_KEY = environ.get('API_KEY', '0306635c1e2ed7ff9a4381ae2411b05f')
 
 bot = Client('pdiskshortner bot',
              api_id=API_ID,
@@ -29,8 +29,8 @@ async def help(bot, message):
     await message.reply(
         f"**This is our Help Page {message.chat.first_name}!**\n\n"
         "If your had **deployed bot** succesfully then you have to do nothing to use this bot\n\n **Just Simply send Any Pdisk Link in Any Format**\n -Shortend Url\n -Cofile url\n\n __Both url are accepted__ \n\n"
-        "**Demo Of Urls**\n **Bit.ly Shortened Url**\n https://bit.ly/38NEpVu \n\n **Pdisk Official Shorten Link** \n https://kofilink.com/1/bnYya2gxMDAwODI4?dn=3 \n https://pdisklink.com/1/bnYybDd0MDAwYTN1 \n\n"
-        "**Long Url** - https://www.cofilink.com/share-video?videoid=nv2kh1000828")
+        "**Demo Of Urls**\n **Bit.ly Shortened Url**\n https://bit.ly/38NEpVu \n\n **Pdisk Official Shorten Link** \n https://kofilink.com/1/bnYya2gxMDAwODI4?dn=3 \n https://www.cofilink.com/share-video?videoid=nv2kh1000828 \n\n"
+        "**Long Url** - https://pdisklink.com/1/bnYybDd0MDAwYTN1")
 
 @bot.on_message(filters.private)
 async def link_handler(bot, message):
